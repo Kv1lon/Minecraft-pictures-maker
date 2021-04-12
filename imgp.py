@@ -86,25 +86,6 @@ for x in range(width):
 
 for k in range(len(colors_list)):
     colors[str(colors_list[k])] = blocks_list[k]
-#for color in colors_list:
-
-#    if (color[0] > 120) and (color[1] > 120) and (color[2] > 120):
-#        colors[str(color)] = block.WOOL_WHITE
-#    elif color[0] < 120 and color[1] < 120 and color[2] < 120:
-#        colors[str(color)] = block.WOOL_BLACK
-#   elif color[0] > 120 and color[1] < 120 and color[2] > 120:
-#        colors[str(color)] = block.WOOL_PURPLE
-#    elif color[0] < 120 and color[1] > 120 and color[2] < 120:
-#        colors[str(color)] = block.WOOL_LIME
-#    elif color[0] > 120 and color[1] < 120 and color[2] < 120:
-#        colors[str(color)] = block.WOOL_RED
-#    elif color[0] < 120 and color[1] < 120 and color[2] > 120:
-#        colors[str(color)] = block.WOOL_BLUE
-#    elif color[0] > 120 and color[1] > 120 and color[2] < 120:
-#        colors[str(color)] = block.WOOL_YELLOW
-#    else:
-#        colors[str(color)] = block.WOOL_CYAN
-
 for x in range(width):
     for y in range(height):
         mc.setBlock(playerPos.x - 60 + width - x, playerPos.y + height - y, playerPos.z + 50,
